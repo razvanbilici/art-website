@@ -1,0 +1,14 @@
+# Ignore environment variables and sensitive config files for both client and server
+server/.env
+server/configs/firebase_configs.js
+server/configs/serviceAccountKey.json
+client/.env
+client/src/configs/firebase_config.js
+
+# Ignore node_modules folders
+server/node_modules/
+client/node_modules/
+
+.vscode/
+
+node_modules/

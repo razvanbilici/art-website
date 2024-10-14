@@ -1,0 +1,7 @@
+# Ignore environment variables and sensitive configs
+.env
+configs/firebase_configs.js
+configs/serviceAccountKey.json
+
+# Ignore node_modules folder
+node_modules/
